@@ -1,0 +1,4 @@
+GIT configuration file
+======================
+
+

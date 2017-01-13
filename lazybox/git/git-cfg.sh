@@ -1,3 +1,10 @@
+# configuration can be:
+#   --system      os-wide
+#   --global      user-wide
+#   --local       repository-wide
+#
+#
+
 # Color
 
 git config --global color.interactive auto  
@@ -21,4 +28,7 @@ git config --global core.editor vim
 #git config --global core.filemode false                                                       
 # alias
 
-alias gitl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commiti --date-order"
+alias gitl='git log --color --graph --decorate --oneline --abbrev-commit --date-order'
+alias gitlg="git log --graph --pretty=format:'%C(yellow)%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date-order"
+alias gitla='gitl --all'
+alias gitlga='gitlg --all'

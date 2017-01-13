@@ -28,7 +28,22 @@ git config --global core.editor vim
 #git config --global core.filemode false                                                       
 # alias
 
-alias gitl='git log --color --graph --decorate --oneline --abbrev-commit --date-order'
-alias gitlg="git log --graph --pretty=format:'%C(yellow)%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date-order"
+alias du='du -sh'
+alias df='df -h'
+alias tree='tree -F'
+alias gitls='git log --color --graph --decorate --oneline --abbrev-commit --date-order'
+alias gitll="git log --graph --pretty=format:'%C(yellow)%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date-order"
 alias gitla='gitl --all'
-alias gitlga='gitlg --all'
+alias gitlla='gitlg --all'
+alias gits='git status'
+alias gitss='gs --short'
+alias gitl='git log'
+alias gitla='gl --all'
+alias gita='git add'
+alias gitc='git commit'
+alias gitac='git commit -a'
+alias gitb='git branch'
+alias gitsh='git show'
+alias gitsb='git show-branch'
+alias gitf='git fetch'
+alias gitm='git merge --no-ff'

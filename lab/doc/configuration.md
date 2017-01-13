@@ -10,7 +10,6 @@ Configuration of a easy-use Unix-like system
 ## git settings
 
 
-
 ## bash settings
 
 > .bashrc

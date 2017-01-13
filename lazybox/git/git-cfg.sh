@@ -19,3 +19,6 @@ git config --global core.editor vim
 # Mode Checking
 
 #git config --global core.filemode false                                                       
+# alias
+
+alias gitl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commiti --date-order"

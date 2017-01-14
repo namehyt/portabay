@@ -23,25 +23,18 @@ git config --global user.email h@h.h
 
 git config --global core.editor vim
 
+# Merge
+
+git config --global merge.commit no
+git config --global merge.ff no
+
 # Mode Checking
 
 #git config --global core.filemode false                                                       
+
 # alias
 
-alias gitls='git log --color --graph --decorate --oneline --abbrev-commit --date-order'
-alias gitll="git log --graph --pretty=format:'%C(yellow)%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date-order"
-alias gitla='gitl --all'
-alias gitlla='gitll --all'
-alias gits='git status'
-alias gitss='gits --short'
-alias gitl='git log'
-alias gitla='gitls --all'
-alias gita='git add'
-alias gitc='git commit'
-alias gitac='git commit -a'
-alias gitb='git branch'
-alias gitsh='git show'
-alias gitsb='git show-branch'
-alias gitf='git fetch'
-alias gitm='git merge --no-ff'
-
+git config --global alias.ll "log --graph --pretty=format:'%C(yellow)%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date-order"
+git config --global alias.lla "log --graph --pretty=format:'%C(yellow)%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date-order --all"
+git config --global alias.l "log --color --graph --decorate --oneline --abbrev-commit --date-order"
+git config --global alias.la "log --color --graph --decorate --oneline --abbrev-commit --date-order --all"

@@ -34,7 +34,7 @@ git config --global merge.ff no
 
 # alias
 
-git config --global alias.ll "log --graph --pretty=format:'%C(yellow)%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date-order"
-git config --global alias.lla "log --graph --pretty=format:'%C(yellow)%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date-order --all"
+git config --global alias.ll "log --graph --pretty=format:'%C(yellow)%h%Creset -%C(bold blue)%d%Creset %s %Cgreen(%an, %cr)%Creset' --abbrev-commit --date-order"
+git config --global alias.lla "log --graph --pretty=format:'%C(yellow)%h%Creset -%C(bold blue)%d%Creset %s %Cgreen(%an, %cr)%Creset' --abbrev-commit --date-order --all"
 git config --global alias.l "log --color --graph --decorate --oneline --abbrev-commit --date-order"
 git config --global alias.la "log --color --graph --decorate --oneline --abbrev-commit --date-order --all"

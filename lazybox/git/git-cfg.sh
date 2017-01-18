@@ -13,6 +13,7 @@ git config --global color.diff auto
 git config --global color.status auto
 git config --global color.branch auto
 git config --global color.ui auto
+git config --global color.showbranch auto
 
 # Identity
 
@@ -27,6 +28,10 @@ git config --global core.editor vim
 
 git config --global merge.commit no
 git config --global merge.ff no
+
+# Pull
+
+git config --global pull.ff auto
 
 # Mode Checking
 

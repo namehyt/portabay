@@ -8,6 +8,7 @@ vim
 busybox
 fish
 git
+tree
 
 ## interpreter
 python

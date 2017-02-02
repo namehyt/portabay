@@ -1,0 +1,29 @@
+[user]
+	email = h@h.h
+	name = h
+[color]
+	branch = auto
+	diff = auto
+	ui = auto
+	pager = true
+	status = auto
+	interactive = auto
+	showbranch = auto
+	grep = auto
+	decorate = always
+[gui]
+	encoding = utf-8
+[core]
+	editor = vim
+[alias]
+	ll = log --graph --pretty=format:'%C(yellow)%h%Creset -%C(bold blue)%d%Creset %s %Cgreen(%an, %cr)%Creset' --abbrev-commit --date-order
+	lla = log --graph --pretty=format:'%C(yellow)%h%Creset -%C(bold blue)%d%Creset %s %Cgreen(%an, %cr)%Creset' --abbrev-commit --date-order --all
+	l = log --color --graph --decorate --oneline --abbrev-commit --date-order
+	la = log --color --graph --decorate --oneline --abbrev-commit --date-order --all
+[merge]
+	commit = no
+ 	ff = no
+[pull]
+	ff = always
+[push]
+	default = simple

@@ -48,6 +48,11 @@ df [-h]
 du [* -sh]
 ```
 
+## text ##
+vim 
+diff -u
+patch
+
 ## string ##
 ```
 (more / less / cat)

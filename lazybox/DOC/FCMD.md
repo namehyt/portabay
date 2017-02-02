@@ -39,7 +39,7 @@ git merge [--no-ff]
 ## files & paths ##
 ```
 (cd / rm / mv / touch / ls)
-tree 
+tree [-F] [-L N]
 file
 hexdump [-C]
 locale

@@ -1,0 +1,7 @@
+start:
+
+$ tightvncserver -geometry 800x600 :1
+
+stop:
+
+$ tightvncserver -kill :1

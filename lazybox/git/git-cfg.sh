@@ -41,5 +41,5 @@ git config --global pull.ff auto
 
 git config --global alias.ll "log --graph --pretty=format:'%C(yellow)%h%Creset -%C(bold blue)%d%Creset %s %Cgreen(%an, %cr)%Creset' --abbrev-commit --date-order"
 git config --global alias.lla "log --graph --pretty=format:'%C(yellow)%h%Creset -%C(bold blue)%d%Creset %s %Cgreen(%an, %cr)%Creset' --abbrev-commit --date-order --all"
-git config --global alias.ls "log --color --graph --decorate --oneline --abbrev-commit --date-order"
+git config --global alias.l "log --color --graph --decorate --oneline --abbrev-commit --date-order"
 git config --global alias.la "log --color --graph --decorate --oneline --abbrev-commit --date-order --all"
